@@ -1,4 +1,4 @@
-class ProductionTable < ActiveRecord::Mirgrate
+class ProductionTable < ActiveRecord::Mirgration
 
     def change
         create_table :productions do |t|
