@@ -21,4 +21,8 @@ ActiveRecord::Schema.define(version: 20180426132809) do
     t.boolean "in_theaters"
   end
 
+  create_table "productions", force: :cascade do |t|
+    t.string "name"
+  end
+
 end
