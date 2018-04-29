@@ -1,4 +1,4 @@
-class ProductionTable < ActiveRecord::Migration[4.2]
+class ProductionTable < ActiveRecord::Migration
 
     def change
         create_table :productions do |t|
